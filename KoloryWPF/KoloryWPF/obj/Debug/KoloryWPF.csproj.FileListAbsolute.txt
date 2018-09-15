@@ -1,1 +1,15 @@
 D:\Programowanie\VisualStudio\KoloryWPF\KoloryWPF\bin\Debug\KoloryWPF.exe.config
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\bin\Debug\KoloryWPF.exe.config
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\bin\Debug\KoloryWPF.exe
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\bin\Debug\KoloryWPF.pdb
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\obj\Debug\KoloryWPF.csprojResolveAssemblyReference.cache
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\obj\Debug\MainWindow.g.cs
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\obj\Debug\App.g.cs
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\obj\Debug\KoloryWPF_MarkupCompile.cache
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\obj\Debug\KoloryWPF_MarkupCompile.lref
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\obj\Debug\MainWindow.baml
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\obj\Debug\KoloryWPF.g.resources
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\obj\Debug\KoloryWPF.Properties.Resources.resources
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\obj\Debug\KoloryWPF.csproj.GenerateResource.Cache
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\obj\Debug\KoloryWPF.exe
+D:\Programowanie\GitHub\WPF-MVVM\KoloryWPF\KoloryWPF\obj\Debug\KoloryWPF.pdb

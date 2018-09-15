@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:KoloryWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525"
+        KeyDown="Window_KeyDown">
     <Grid>
-        
+        <Rectangle x:Name="rectangle" Fill="#FFF4F4F5" Margin="10,10,9.667,101.667" Stroke="Black"/>
+        <Slider x:Name="sliderR" Margin="10,0,9.667,72.667" VerticalAlignment="Bottom" Maximum="255" ValueChanged="sliderR_ValueChanged"/>
+        <Slider x:Name="sliderG" Margin="10,0,9.667,49.667" VerticalAlignment="Bottom" Maximum="255" ValueChanged="sliderR_ValueChanged"/>
+        <Slider x:Name="sliderB" Margin="10,0,9.667,26.667" VerticalAlignment="Bottom" Maximum="255" ValueChanged="sliderR_ValueChanged"/>
+
     </Grid>
 </Window>
