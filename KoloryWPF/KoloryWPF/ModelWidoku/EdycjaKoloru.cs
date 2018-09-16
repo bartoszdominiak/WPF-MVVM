@@ -7,11 +7,13 @@ using System.Threading.Tasks;
 namespace KoloryWPF.ModelWidoku
 {
     using Model;
+    using System.ComponentModel;
     using System.Windows.Media;
 
-    public class EdycjaKoloru
+    public class EdycjaKoloru : ObservedObject
     {
         private readonly Kolor kolor = Ustawienia.Czytaj();
+
         public byte R
         {
             get
@@ -21,6 +23,7 @@ namespace KoloryWPF.ModelWidoku
             set
             {
                 kolor.R = value;
+                OnPropertyChanged("R", "Color");
             }
         }
 
@@ -33,6 +36,7 @@ namespace KoloryWPF.ModelWidoku
             set
             {
                 kolor.G = value;
+                OnPropertyChanged("G", "Color");
             }
         }
 
@@ -45,6 +49,7 @@ namespace KoloryWPF.ModelWidoku
             set
             {
                 kolor.B = value;
+                OnPropertyChanged("B", "Color");
             }
         }
 
@@ -60,6 +65,8 @@ namespace KoloryWPF.ModelWidoku
         {
             Ustawienia.Zapisz(kolor);
         }
+
+       
     }
     
     static class Rozszerzenia

@@ -22,44 +22,26 @@ namespace KoloryWPF
     /// </summary>
     public partial class MainWindow : Window
     {
-        private Color KolorProstokata
-        {
-            get
-            {
-                return (rectangle.Fill as SolidColorBrush).Color;
-            }
-            set
-            {
-                (rectangle.Fill as SolidColorBrush).Color = value;
-            }
-        }
+
 
 
         public MainWindow()
         {
             InitializeComponent();
-            Color kolor = Ustawienia.Czytaj().ToColor();
-            rectangle.Fill = new SolidColorBrush();
-            sliderR.Value = kolor.R;
-            sliderG.Value = kolor.G;
-            sliderB.Value = kolor.B;
-        }
-
-        private void sliderR_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            Color kolor = Color.FromRgb(
-                (byte)sliderR.Value,
-                (byte)sliderG.Value,
-                (byte)sliderB.Value);
-            KolorProstokata = kolor;
         }
 
         private void Window_KeyDown(object sender, KeyEventArgs e)
         {
             if(e.Key==Key.Escape)
             {
-                Ustawienia.Zapisz(new Kolor(KolorProstokata.R, KolorProstokata.G, KolorProstokata.B));
+                this.Close();
             }
+        }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+            EdycjaKoloru edycjaKoloru = this.Resources["edycjaKoloru"] as EdycjaKoloru;
+            edycjaKoloru.Zapisz();
         }
     }
 }

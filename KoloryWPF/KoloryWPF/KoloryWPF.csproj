@@ -55,7 +55,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Konwertery.cs" />
     <Compile Include="ModelWidoku\EdycjaKoloru.cs" />
+    <Compile Include="ModelWidoku\ObservedObject.cs" />
     <Compile Include="Model\Kolor.cs" />
     <Compile Include="Ustawienia.cs" />
     <Page Include="MainWindow.xaml">
